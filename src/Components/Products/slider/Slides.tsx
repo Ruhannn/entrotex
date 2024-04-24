@@ -9,7 +9,7 @@ function DreiImage(props: ImageProps) {
   const group = useRef<Group>(null);
   const data = useScroll();
 
-  useFrame((state, delta) => {
+  useFrame((_state, delta) => {
     if (group.current && ref.current && data) {
       group.current.position.z = MathUtils.damp(
         group.current.position.z,
