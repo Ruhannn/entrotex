@@ -14,6 +14,7 @@
     "framer-motion": "^11.1.7",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
+    "popmotion": "^11.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.1.0",
